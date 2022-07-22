@@ -370,5 +370,28 @@ while True:
 * rate(): Used to find the rating of a film.
 * urate(): Used to Load a rating of a particular user.
 ---
-##[users.bin](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/users.bin)
-##[movies.bin](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/movies.bin)
+## [users.bin](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/users.bin)
+Data of Users are dumped in the form of dictionary.
+~~~python
+{
+'Id':<username/id>,
+'passwd':<password>
+}
+~~~
+
+## [movies.bin](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/movies.bin)
+Data of Movies are dumped in the form of dictionary.
+~~~python
+{
+'name': 'Sarpatta Parambarai',
+'year': 2021,
+'date': '22/07',
+'dur': '2h 53m',
+'cast': ['Arya', 'Pasupathy'],
+'director': 'Pa. Ranjith',
+'boxoffice': 20000,
+'story': 'A Sports Drama film, Set during the 1970s, the film revolves around a clash between two clans namely Sarpatta Parambarai and Idiyappa Parambarai in North Chennai, which also showcases the boxing culture in the locality and also the politics being involved in it.',
+'genre': 'action',
+'rate': {'avas': 8}
+}
+~~~
