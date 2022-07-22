@@ -15,7 +15,8 @@ def load():
                 l.append(pickle.load(f))
         except EOFError:
             return l
-        
+
+#Functions for Rating Mechanism
 def rate(d):
     sum = 0
     for i in d['rate'].values():
@@ -24,6 +25,7 @@ def rate(d):
         return sum/len(d['rate'])
     except ZeroDivisionError:
         return 0
+
 def urate(d):
     global userid
     if userid in d['rate'].keys():
@@ -31,6 +33,7 @@ def urate(d):
     else:
         return 'NULL'
 
+#Functions for Authentication
 def auth():
     print('\n')
     print('*'*40)
@@ -84,6 +87,7 @@ def signin():
             print('Invalid Username or Password')
             auth()
 
+#Admin Functions
 def insert():
     d = {}
     d['name']  = input('>>> Enter the Movie Name:')
@@ -141,6 +145,8 @@ def delete():
     else:
         print("Movie does not exists!")
 
+#User Functions
+#Functions for Search
 def searchbyname():
     global userid
     name = input('\n\n>>> Enter the Movie Name: ')
@@ -247,7 +253,8 @@ def search():
         elif ch == 5: searchbyrating()
         elif ch == 6: break
         else: print('Invalid Input\n\n')
-        
+
+#Functions for Surfing/Browsing
 def toprate():
     l = load()
     a = {}
@@ -292,7 +299,9 @@ def surf():
         elif ch == 3: mostviewed()
         elif ch == 4: break
         else: print('Invalid Input\n\n')
-    
+
+#Main pgm starts here.
+
 auth()
 
 while True:
