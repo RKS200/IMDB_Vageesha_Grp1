@@ -1,4 +1,7 @@
 # IMDB
+### By Kowshic Shankar R and Prahalad M
+#### Sri Vageesha Vidhyashram
+-----
 Shah rukh ji asked to create a dummy [IMBD](https://www.imdb.com/) website model using python.
 
 ## Files
