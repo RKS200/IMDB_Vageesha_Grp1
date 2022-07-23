@@ -395,3 +395,18 @@ Data of Movies are dumped in the form of dictionary.
 'rate': {'avas': 8}
 }
 ~~~
+## Screenshorts
+![](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/screenshorts/Screenshot%202022-07-23%20082806.png)
+![](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/screenshorts/Screenshot%202022-07-23%20082853.png)
+![](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/screenshorts/Screenshot%202022-07-23%20082941.png)
+![](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/screenshorts/Screenshot%202022-07-23%20083832.png)
+![](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/screenshorts/Screenshot%202022-07-23%20083938.png)
+![](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/screenshorts/Screenshot%202022-07-23%20084736.png)
+![](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/screenshorts/Screenshot%202022-07-23%20084016.png)
+![](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/screenshorts/Screenshot%202022-07-23%20084946.png)
+![](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/screenshorts/Screenshot%202022-07-23%20085026.png)
+![](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/screenshorts/Screenshot%202022-07-23%20085157.png)
+![](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/screenshorts/Screenshot%202022-07-23%20085238.png)
+![](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/screenshorts/Screenshot%202022-07-23%20090134.png)
+![](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/screenshorts/Screenshot%202022-07-23%20090206.png)
+![](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/screenshorts/Screenshot%202022-07-23%20090257.png)
