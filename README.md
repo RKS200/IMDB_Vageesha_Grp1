@@ -232,11 +232,11 @@ def searchbycast():
 
 def searchbyrating():
     global userid
-    rate = int(input('\n\n>>> Enter the Rating: '))
+    r = int(input('\n\n>>> Enter the Rating: '))
     l = load()
     a = 0
     for i in l:
-        if(int(rate(i)) == rate):
+        if(int(rate(i)) == r):
             a += 1
             print('{:<20}'.format("\nMovie Name: "),i['name'],'{:<20}'.format("\nYear: "),i['year'],'{:<20}'.format("\nRelease Date: "),i['date'],'{:<20}'.format("\nDuration: "),i['dur'])
             print('Casts:')
@@ -273,7 +273,7 @@ def toprate():
         a[rate(i)] = i
     b = sorted(a)
     print('\n\nTop Rated')
-    for i in b[:5]:
+    for i in sorted(b[:5],reverse = True):
         print('{:<20}{:<20}{:<20}'.format(a[i]['name'],i,a[i]['genre']))
         
 def bohits():
@@ -283,7 +283,7 @@ def bohits():
         a[i['boxoffice']] = i
     b = sorted(a)
     print('\n\nBox Office Hits')
-    for i in b[:5]:
+    for i in sorted(b[:5],reverse = True):
         print('{:<20}{:<20}{:<20}'.format(a[i]['name'],i,a[i]['genre']))
         
 def mostviewed():
@@ -293,7 +293,7 @@ def mostviewed():
         a[len(i['rate'])] = i
     b = sorted(a)
     print('\n\nBox Office Hits')
-    for i in b[:5]:
+    for i in sorted(b[:5],reverse = True):
         print('{:<20}{:<20}{:<20}'.format(a[i]['name'],i,a[i]['genre']))
         
 def surf():
@@ -341,7 +341,7 @@ while True:
     elif ch == 5: edit()
     elif ch == 6: delete()
     else: print('Invalid Input\n\n')
- ~~~
+~~~
  ---
 **Structure**:
 ![Flowchart](https://github.com/RKS200/IMDB_Vageesha_Grp1/blob/main/flowchart.png)
